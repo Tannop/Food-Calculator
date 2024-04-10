@@ -5,11 +5,11 @@ This Flutter application allows users to calculate the total price of their food
 
 To run this app, make sure you have Flutter installed on your machine. Then, clone this repository and run `flutter run` in the project directory.
 
-git clone https://github.com/your-username/food-store-calculator.git
+`git clone https://github.com/your-username/food-store-calculator.git`
 
-cd food-store-calculator
+`cd food-store-calculator`
 
-flutter run
+`flutter run`
 
 ## Usage
 - Select the quantity of each item from the menu.
@@ -77,6 +77,10 @@ The test cases ensure that the functionality of the CalculatorScreen widget work
     3. Tap the '+' button for the Yellow item three times.
   
     4. Verify the presence of the text 'Total Price: 135.0 THB'.
+
+## Unit Test Run
+
+To run the Unit test use `flutter test lib/test/test_case.dart` in terminal
 
 ## Contributing
 
