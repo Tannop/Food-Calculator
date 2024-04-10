@@ -35,3 +35,52 @@ flutter run
     -  State Methods:
       
         calculateTotalPrice(): Calculates the total price of the order based on the quantity of each item ordered and any applicable discounts.
+       
+## Unit Test 
+
+The test cases ensure that the functionality of the CalculatorScreen widget works as expected.
+
+- Initial Total Price Test
+  
+    Test Description: Verify that the initial total price is 0 THB.
+    
+    Test Steps:
+    
+    1. Pump the widget with MyApp.
+    
+    2. Verify the presence of the text 'Total Price: 0.0 THB'.
+
+ - Total Price Without Member Card and No Discounts Test
+   
+    Test Description: Verify the total price calculation without a member card and no discounts.
+  
+    Test Steps:
+    
+    1. Pump the widget with MyApp.
+    
+    2. Tap the '+' button for the Red item twice.
+    
+    3. Tap the '+' button for the Green item once.
+    
+    4. Verify the presence of the text 'Total Price: 140.0 THB'.
+
+  - Total Price With Member Card and No Discounts Test
+    
+    Test Description: Verify the total price calculation with a member card and no discounts.
+  
+    Test Steps:
+  
+    1. Pump the widget with MyApp.
+  
+    2. Tap the Member Card checkbox.
+  
+    3. Tap the '+' button for the Yellow item three times.
+  
+    4. Verify the presence of the text 'Total Price: 135.0 THB'.
+
+## Contributing
+
+Tannop Sangvanloy created this flutter app on March 10, 2024.
+
+
+
